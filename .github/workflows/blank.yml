@@ -19,6 +19,6 @@ jobs:
      
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: REG QUERY HKLMSOFTWAREMicrosoftCryptography /v MachineGuid
+        run: REG QUERY HKLM\SOFTWARE\Microsoft\Cryptography /v MachineGuid
 
 
